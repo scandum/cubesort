@@ -4,11 +4,11 @@ This document describes a stable partitioning comparison sort named cubesort.
 
 Binary Cube
 -----------
-Cubesort sorts data by storing data in a multidimentional balanced array.
+Cubesort sorts data by storing data in a [binary cube](https://github.com/scandum/binary_cube), multidimentional balanced array.
 
 Binary Search
 -------------
-In order to sort 1 element 3 [monobound binary searches](https://github.com/scandum/binary_search) are performed to pin point the bucket where the element should be stored.
+In order to sort 1 element, 3 [monobound binary searches](https://github.com/scandum/binary_search) are performed to pin point the bucket where the element should be stored.
 
 Overflow
 --------
