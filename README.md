@@ -35,28 +35,28 @@ The source code was compiled using g++ -O3 -w -fpermissive bench.c. Each test wa
 |      Name |    Items | Type |     Best |  Average | Repetitions |     Distribution |
 | --------- | -------- | ---- | -------- | -------- | ----------- | ---------------- |
 | std::sort |   100000 |  i32 | 0.005530 | 0.005565 |           1 |     random order |
-|  gridsort |   100000 |  i32 | 0.004708 | 0.004736 |           1 |     random order |
+|  cubesort |   100000 |  i32 | 0.004708 | 0.004736 |           1 |     random order |
 |           |          |      |          |          |             |                  |
 | std::sort |   100000 |  i32 | 0.000943 | 0.001046 |           1 |  ascending order |
-|  gridsort |   100000 |  i32 | 0.000275 | 0.000280 |           1 |  ascending order |
+|  cubesort |   100000 |  i32 | 0.000275 | 0.000280 |           1 |  ascending order |
 |           |          |      |          |          |             |                  |
 | std::sort |   100000 |  i32 | 0.003193 | 0.003216 |           1 |    ascending saw |
-|  gridsort |   100000 |  i32 | 0.001570 | 0.001583 |           1 |    ascending saw |
+|  cubesort |   100000 |  i32 | 0.001570 | 0.001583 |           1 |    ascending saw |
 |           |          |      |          |          |             |                  |
 | std::sort |   100000 |  i32 | 0.002931 | 0.002965 |           1 |    generic order |
-|  gridsort |   100000 |  i32 | 0.001830 | 0.001851 |           1 |    generic order |
+|  cubesort |   100000 |  i32 | 0.001830 | 0.001851 |           1 |    generic order |
 |           |          |      |          |          |             |                  |
 | std::sort |   100000 |  i32 | 0.000739 | 0.000774 |           1 | descending order |
-|  gridsort |   100000 |  i32 | 0.000251 | 0.000257 |           1 | descending order |
+|  cubesort |   100000 |  i32 | 0.000251 | 0.000257 |           1 | descending order |
 |           |          |      |          |          |             |                  |
 | std::sort |   100000 |  i32 | 0.002765 | 0.002775 |           1 |   descending saw |
-|  gridsort |   100000 |  i32 | 0.001139 | 0.001200 |           1 |   descending saw |
+|  cubesort |   100000 |  i32 | 0.001139 | 0.001200 |           1 |   descending saw |
 |           |          |      |          |          |             |                  |
 | std::sort |   100000 |  i32 | 0.003713 | 0.003729 |           1 |      random tail |
-|  gridsort |   100000 |  i32 | 0.001385 | 0.001398 |           1 |      random tail |
+|  cubesort |   100000 |  i32 | 0.001385 | 0.001398 |           1 |      random tail |
 |           |          |      |          |          |             |                  |
 | std::sort |   100000 |  i32 | 0.004755 | 0.004782 |           1 |      random half |
-|  gridsort |   100000 |  i32 | 0.002541 | 0.002558 |           1 |      random half |
+|  cubesort |   100000 |  i32 | 0.002541 | 0.002558 |           1 |      random half |
 
 Source code
 -----------
